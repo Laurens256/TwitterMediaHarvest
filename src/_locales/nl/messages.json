@@ -1,0 +1,291 @@
+{
+  "appName": {
+    "message": "Media Harvest : twitter Media Downloader"
+  },
+  "appDesc": {
+    "message": "Download videos en foto's van twitter of TweetDeck met één klik."
+  },
+  "submitButtonText": {
+    "message": "Opslaan"
+  },
+  "notificationDLFailedTitle": {
+    "message": "Download mislukt"
+  },
+  "notificationDLFailedMessage": {
+    "message": "Media van $ACCOUNT$($TWEETID$) download mislukt.",
+    "placeholders": {
+      "account": {
+        "content": "$1",
+        "example": "TweetAccount"
+      },
+      "tweetid": {
+        "content": "$2",
+        "example": "1253677247493337088"
+      }
+    }
+  },
+  "notificationDLFailedButton1": {
+    "message": "Bekijken"
+  },
+  "notificationDLFailedButton2": {
+    "message": "Opnieuw"
+  },
+  "fetchFailedTooManyRequestsTitle": {
+    "message": "Twitter tarieflimiet overschreden."
+  },
+  "fetchFailedTooManyRequestsMessage": {
+    "message": "Te veel verzoeken."
+  },
+  "fetchFailedUnknownTitle": {
+    "message": "Onbekende Fout:"
+  },
+  "fetchFailedUnknownMessage": {
+    "message": "Neem contact op met de ontwikkelaar."
+  },
+  "fetchFailedNotFoundTitle": {
+    "message": "Kan tweetdata niet vinden."
+  },
+  "fetchFailedNotFoundMessage": {
+    "message": "Deze tweet is misschien verwijderd."
+  },
+  "noSubDirectory": {
+    "message": "Geen submap maken."
+  },
+  "resetButtonText": {
+    "message": "Reset"
+  },
+  "userCanceledMessage": {
+    "message": "Gelieve uitzetten [Vraag waar bestanden opgeslagen moeten worden voor het downloaden]."
+  },
+  "internalError": {
+    "message": "Interne Fout"
+  },
+  "options_sidemenu_general": {
+    "message": "Algemeen"
+  },
+  "options_sidemenu_features": {
+    "message": "Functionaliteiten"
+  },
+  "options_sidemenu_integrations": {
+    "message": "Integraties"
+  },
+  "options_sidemenu_history": {
+    "message": "Geschiedenis"
+  },
+  "options_sidemenu_about": {
+    "message": "Over"
+  },
+  "popup_features_revealNsfw": {
+    "message": "Aanstootgevende content tonen"
+  },
+  "popup_features_downloadVideoThumbnail": {
+    "message": "Video thumbnail"
+  },
+  "popup_reactions_rate": {
+    "message": "Beoordelen"
+  },
+  "popup_reactions_report": {
+    "message": "Problemen rapporteren"
+  },
+  "options_integrations_notCompatibble": {
+    "message": "Deze integratie werkt niet met $TARGET$",
+    "placeholders": {
+      "target": {
+        "content": "$1",
+        "example": "Firefox"
+      }
+    }
+  },
+  "options_integrations_dispatchToAria2": {
+	"message": "Download overzetten naar Aria2"
+  },
+  "options_integrations_dispatchToAria2_desc": {
+    "message": "Download overzetten naar Aria2 via Aria2-Explorer."
+  },
+  "options_integrations_aggressiveMode": {
+    "message": "Aggressieve Stand"
+  },
+  "options_integrations_aggressiveMode_desc": {
+    "message": "Zorg ervoor dat de bestandsnaam niet door andere extensies wordt gewijzigd. Deze stand kan in conflict raken met andere downloadbeheer-extensies."
+  },
+  "options_general_subDirectory": {
+    "message": "Maak een submap"
+  },
+  "options_general_subDirectory_desc": {
+    "message": "Maak een submap in de standaard downloadmap. Submappen kunnen worden gescheiden met \"/\"."
+  },
+  "options_general_fileAggregation": {
+    "message": "Groepeer Bestanden"
+  },
+  "options_general_fileAggregation_desc": {
+    "message": "Groupeer bestanden naar het gekozen attribuut."
+  },
+  "options_general_filenamePattern": {
+    "message": "Bestandsnaam patroon"
+  },
+  "options_general_filenamePattern_desc": {
+    "message": "Je kan kiezen welke informatie in de bestandsnaam komt."
+  },
+  "options_general_filenamePattern_token_account": {
+    "message": "Account"
+  },
+  "options_general_filenamePattern_token_tweetId": {
+    "message": "Tweet ID"
+  },
+  "options_general_filenamePattern_token_hash": {
+    "message": "Hash"
+  },
+  "options_general_filenamePattern_token_serial": {
+    "message": "Serienummer"
+  },
+  "options_general_filenamePattern_token_downloadDate": {
+    "message": "Download Datum"
+  },
+  "options_general_filenamePattern_token_downloadDatetime": {
+    "message": "Download Datum en Tijd"
+  },
+  "options_general_filenamePattern_token_accountId": {
+    "message": "Account ID"
+  },
+  "options_general_filenamePattern_token_tweetDate": {
+    "message": "Tweet Datum"
+  },
+  "options_general_filenamePattern_token_tweetDatetime": {
+    "message": "Tweet Datum en Tijd"
+  },
+  "options_general_filenameSettings_message_dir": {
+    "message": "Ongeldige foldernaam. Mag niet de volgende karakters bevatten <>:\"\\|?*"
+  },
+  "options_general_filenameSettings_message_pattern": {
+    "message": "Ongeldig patroon. Het patroon moet `Tweet ID` + `Serial` of `Hash` bevatten"
+  },
+  "options_features_revealNsfw": {
+    "message": "Toon automatisch aanstootgevende content"
+  },
+  "options_features_revealNsfw_desc": {
+    "message": "Als de tweet als aanstootgevend gemeld is, kan deze functie automatisch de aanstootgevende content tonen."
+  },
+  "options_features_downloadVideoThumbnail": {
+    "message": "Download video thumbnail"
+  },
+  "options_features_downloadVideoThumbnail_desc": {
+    "message": "Download de thumbnail als de media een video is."
+  },
+  "options_about_officialWebsite": {
+    "message": "Officiele website"
+  },
+  "options_about_privacyPolicy": {
+    "message": "Privacybeleid"
+  },
+  "options_about_changeLog": {
+    "message": "Wijzigings-geschiedenis"
+  },
+  "options_about_version": {
+    "message": "Versie"
+  },
+  "popup_changeLog": {
+    "message": "Wijzigings-geschiedenis"
+  },
+  "popup_buyMeCoffee": {
+    "message": "Koop een koffie voor mij!"
+  },
+  "footbar_doYouLike": {
+    "message": "Vind je Media Harvest fijn?"
+  },
+  "footbar_rate": {
+    "message": "Beoordelen"
+  },
+  "footbar_buyMeCoffee": {
+    "message": "Koop een koffie voor mij"
+  },
+  "footbar_or": {
+    "message": "of"
+  },
+  "backend_notification_title_unauth": {
+    "message": "Ongeautoriseerd"
+  },
+  "backend_notification_message_unauth": {
+    "message": "Check of je ingelogd bent en of je toestemming hebt om deze tweet te bekijken."
+  },
+  "backend_notification_title_forbidden": {
+    "message": "Niet toegestaan"
+  },
+  "backend_notification_message_forbidden": {
+    "message": "Je sessie is misschien verlopen. Herlaad de pagina"
+  },
+  "notification_failedToParseTweetInfo_title": {
+    "message": "Tweet informatie verwerken mislukt"
+  },
+  "notification_failedToParseTweetInfo_message": {
+	"message": "Verwerken van de tweet informatie is mislukt. Rapporteer dit aan de ontwikkelaar."
+  },
+  "options_features_keyboardShortcut": {
+    "message": "Toetsenbord snelkoppeling"
+  },
+  "options_features_keyboardShortcut_desc": {
+    "message": "Gebruik snelkoppeling om te downloaden."
+  },
+  "options_general_askWhereToSave": {
+    "message": "Vraag waar bestanden gedownload worden."
+  },
+  "options_general_askWhereToSave_desc": {
+    "message": "Toon bestandskiezer voor het downloade. Het is aangeraden deze optie uit te zetten."
+  },
+  "options_about_issues": {
+    "message": "Rapporteer problemen"
+  },
+  "options_history_table_thumbnail": {
+    "message": "thumbnail"
+  },
+  "options_history_table_user": {
+    "message": "gebruiker"
+  },
+  "options_history_table_tweetTime": {
+    "message": "post tijd"
+  },
+  "options_history_table_downloadTime": {
+    "message": "download tijd"
+  },
+  "options_history_table_actions": {
+    "message": "acties"
+  },
+  "options_history_table_mediaType": {
+    "message": "type"
+  },
+  "options_history_table_mediaType_image": {
+    "message": "Foto"
+  },
+  "options_history_table_mediaType_video": {
+    "message": "Video"
+  },
+  "options_history_table_mediaType_mixed": {
+    "message": "Gemixed"
+  },
+  "options_history_table_input_placeholder_username": {
+    "message": "Gebruikersnaam"
+  },
+  "options_history_table_select_mediaType_all": {
+    "message": "Alle"
+  },
+  "options_history_table_select_mediaType_image": {
+    "message": "Foto"
+  },
+  "options_history_table_select_mediaType_video": {
+    "message": "Video"
+  },
+  "options_history_table_select_mediaType_mixed": {
+    "message": "Gemixed"
+  },
+  "options_history_table_ariaLabel_prevPage": {
+    "message": "Vorige pagina"
+  },
+  "options_history_table_ariaLabel_nextPage": {
+    "message": "Volgend pagina"
+  },
+  "options_history_table_ariaLabel_refresh": {
+    "message": "Herladen"
+  },
+  "options_history_table_select_title_mediaType": {
+    "message": "Kies media type"
+  }
+}

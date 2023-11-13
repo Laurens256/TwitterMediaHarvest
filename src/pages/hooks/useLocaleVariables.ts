@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import browser from 'webextension-polyfill'
 
-type SupportLocale = 'en' | 'ja' | 'zh'
+type SupportLocale = 'en' | 'ja' | 'zh' | 'nl'
 
 type LocalVariableInit<T> = { base: T } & Partial<Record<SupportLocale, T>>
 
